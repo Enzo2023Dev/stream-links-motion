@@ -1,0 +1,10 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Eslabones de cadena -->
+  <path d="M22 22 L28 28 L20 36 L14 30 Z" stroke="#1DA1F2" stroke-width="3" fill="none" stroke-linejoin="round"></path>
+  <path d="M30 30 L36 36 L28 44 L22 38 Z" stroke="#1DA1F2" stroke-width="3" fill="none" stroke-linejoin="round"></path>
+
+  <!-- Ondas de streaming -->
+  <path d="M42 18 C46 22, 46 30, 42 34" stroke="#1DA1F2" stroke-width="3" fill="none" stroke-linecap="round"></path>
+  <path d="M46 14 C52 22, 52 30, 46 38" stroke="#1DA1F2" stroke-width="2" fill="none" stroke-linecap="round"></path>
+  <circle cx="40" cy="26" r="3" fill="#1DA1F2"></circle>
+</svg>

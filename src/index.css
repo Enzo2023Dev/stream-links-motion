@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+    --color-royalBlue-50: oklch(0.9164 0.0459 300.7218);
+    --color-royalBlue-100: oklch(0.8310 0.0920 298.5089);
+    --color-royalBlue-200: oklch(0.7463 0.1360 295.5193);
+    --color-royalBlue-300: oklch(0.6627 0.1783 291.1485);
+    --color-royalBlue-400: oklch(0.5785 0.2174 284.8605);
+    --color-royalBlue-500: oklch(0.4949 0.2549 273.7974);
+    --color-royalBlue-600: oklch(0.4357 0.2125 276.0188);
+    --color-royalBlue-700: oklch(0.3754 0.1715 279.0555);
+    --color-royalBlue-800: oklch(0.3159 0.1297 282.3587);
+    --color-royalBlue-900: oklch(0.2563 0.0871 287.0058);
+    --color-royalBlue-950: oklch(0.1962 0.0474 295.1286);
+  }
+
+@layer base {
+    html{
+        font-family: "Rubik", sans-serif;
+    }
+}
