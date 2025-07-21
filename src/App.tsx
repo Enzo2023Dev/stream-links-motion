@@ -14,7 +14,7 @@ const pageContent = {
   title: "Titulo",
   subtitle: "Subtitulo",
   description: "Descripcion de la pagina, puedes poner lo que quieras, incluso emojis! 😄",
-  footer: "Footer de la pagina, puedes poner lo que quieras, incluso emojis! 😄",
+  footer: "Este proyecto es open source, hecho por Enzo2023Dev. Puedes ver el código y contribuir libremente. 🚀",
 }
 
 const buttonLinks = [
