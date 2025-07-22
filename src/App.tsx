@@ -4,10 +4,6 @@ import { motion } from "motion/react"
 import Button from "@/components/Button"
 import AnimatedCard from "@/components/Card"
 import Tooltip from "@/components/Tooltip"
-
-import { useEffect, useState } from "react"
-
-import Loader from "@/components/Loader"
 import GlassCard from "@/components/GlassCard"
 
 const pageContent = {
@@ -99,14 +95,6 @@ const item = {
 
 
 function App() {
-  const [loading, setLoading] = useState(true)
-
-  useEffect(() => {
-    const timeout = setTimeout(() => setLoading(false), 1800)
-    return () => clearTimeout(timeout)
-  }, [])
-
-  if (loading) return <Loader />
 
   return (
      <motion.div
